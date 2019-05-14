@@ -49,7 +49,7 @@ def file_name(file_dir):
             else:
                 for index in range(len(fruits_size)):
                     if (Image_name[index] in files) == False:
-                        print("缺少的图片"), Image_name[index]
+                        print("缺少的图片"), print(Image_name[index])
 
 
 file_name(r"C:\Users\lz\Desktop\OEM\TK\oem_pics\\")
