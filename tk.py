@@ -12,7 +12,7 @@ def file_name(file_dir):
         # print(root) #当前目录路径
         # print(dirs) #当前路径下所有子目录
         # print(files) #当前路径下所有非目录子文件
-        fruits_size = [(3541, 183), (48, 48), (561, 27), (20, 20), (593, 512), (420, 23), (561, 27), (446, 149),
+        fruits_size = [(354, 183), (48, 48), (561, 27), (20, 20), (593, 512), (420, 23), (561, 27), (446, 149),
                        (256, 256), (24, 24), (16, 16), (16, 16), (16, 16), (16, 16), (16, 16), (256, 256), (48, 48),
                        (148, 58), (18, 18)]
         Image_name = ['au_bg.png', 'au_icon.png', 'au_loginbutton.png', 'au_mainicon.png', 'au_msgbox.png',
@@ -30,9 +30,10 @@ def file_name(file_dir):
 
                 if fruits_size[index] != img.size:
                     print("图片尺寸不对")
-                    print("错误图片:" + Image_name[index],)
+                    print("错误图片:" + Image_name[index])
                     print("所给错误尺寸:"),  print(img.size)
                     print("正确的尺寸"), print(fruits_size[index])
+                    print('------------------')
 
 
         else:

@@ -31,6 +31,7 @@ def file_name(file_dir):
                     print("错误图片:"), Image_name[index]
                     print("所给错误尺寸:"), img.size
                     print("正确的尺寸"), fruits_size[index]
+                    print('---------------------')
 
 
 
@@ -42,11 +43,11 @@ def file_name(file_dir):
                 for index in range(len(files)):
                     if (files[index] in ['common_logo.png', 'GkylinFree.ico', 'installing_banner_2.png',
                                          'install_banner_bg.png']) == False:
-                        print("多余的图片"), files[index]
+                        print("多余的图片"), print(files[index])
             else:
                 for index in range(len(fruits_size)):
                     if (Image_name[index] in files) == False:
-                        print("缺少的图片"), Image_name[index]
+                        print("缺少的图片"), print(Image_name[index])
 
 
 file_name(r"C:\Users\lz\Desktop\OEM\DDNS\oem_pics\\")
