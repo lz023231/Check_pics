@@ -51,5 +51,5 @@ def file_name(file_dir):
                     if (Image_name[index] in files) == False:
                         print("缺少的图片"), Image_name[index]
 
-                        print("-")
+
 file_name(r"C:\Users\lz\Desktop\OEM\TK\oem_pics\\")
