@@ -53,4 +53,4 @@ def file_name(file_dir):
                         print("缺少的图片"), print(Image_name[index])
 
 
-file_name(r"C:\Users\lz\Desktop\OEM\TK\oem_pics\\")
+file_name(r"C:\Users\lz\Desktop\思软软件天联标准版OEM资料\oem_pics\\")
